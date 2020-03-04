@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<h1>Olá</h1>
+
+	<script src="./../node_modules/socket.io-client/dist/socket.io.js"></script>
+
+	<script>
+		var socket = io('http://localhost:9000');
+		socket.on('file-change', (data)=>{
+			console.log(data);
+		});
+	</script>
+
+</body>
+</html>

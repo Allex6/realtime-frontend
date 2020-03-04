@@ -1,0 +1,25 @@
+{
+  "name": "realtime-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Allex6/realtime-frontend.git"
+  },
+  "author": "Alex Souza",
+  "license": "ISC",
+  "preferGlobal": "true",
+  "bugs": {
+    "url": "https://github.com/Allex6/realtime-frontend/issues"
+  },
+  "homepage": "https://github.com/Allex6/realtime-frontend#readme",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "express": "^4.15.2",
+    "socket.io": "^2.3.0"
+  }
+}
