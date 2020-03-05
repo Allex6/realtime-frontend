@@ -1,6 +1,6 @@
 {
   "name": "realtime-frontend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This tool allows the developer to follow changes in the interface he is developing in real time.",
   "main": "./lib/index.js",
   "scripts": {
@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/Allex6/realtime-frontend.git"
   },
-  "keywords": ["realtime development", "frontend realtime", "realtime", "template development", "template creator tool"],
+  "keywords": [
+    "realtime development",
+    "frontend realtime",
+    "realtime",
+    "template development",
+    "template creator tool"
+  ],
   "author": "Alex Souza",
   "license": "ISC",
   "preferGlobal": "true",
