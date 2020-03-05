@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Atualizando em tempo real</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
 
-	<h1>Olá</h1>
+	<h1>Olá Mundo!!</h1>
+
+	<p>Bom, os arquivos que são adicionados APÓS a varredura no arquivo inicial (HTML) não estão sendo rastreados, então precisamos verificar sempre que outro arquivo de estilo for chamado dentro do html</p>
+
+	<p>Além de que talvez possamos melhorar a performance, visto que tá demorando um pouco pra carregar o conteúdo, e isso em um site maior deve ter um peso significante...</p>
+
+	<p>Copiei 20 mil linhas de código pra ver se a performance piorava, mas isso não aconteceu. de qualuqer forma, ainda irei tentar melhorar a performance.</p>
+
+	<h1>Performance...</h1>
 
 	<script src="./../node_modules/socket.io-client/dist/socket.io.js"></script>
-
-	<script>
-		var socket = io('http://localhost:9000');
-		socket.on('file-change', (data)=>{
-			console.log(data);
-		});
-	</script>
+	<script src="./client.js"></script>
 
 </body>
 </html>
