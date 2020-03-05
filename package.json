@@ -18,7 +18,7 @@
     "template creator tool"
   ],
   "author": "Alex Souza",
-  "license": "ISC",
+  "license": "MIT",
   "preferGlobal": "true",
   "bugs": {
     "url": "https://github.com/Allex6/realtime-frontend/issues"
