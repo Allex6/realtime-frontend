@@ -1,6 +1,6 @@
 {
   "name": "realtime-frontend",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This tool allows the developer to follow changes in the interface he is developing in real time.",
   "main": "./lib/index.js",
   "scripts": {
