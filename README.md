@@ -24,6 +24,8 @@ const RealTime = require ('realtime-frontend');
 let app = new RealTime ();
 ```
 
+**It is important to remember that you need to use the socket client in the html file.**
+
 This will cause the communication between client and server to be established using socket.
 
 This is enough for our tool to keep an eye on the html file that has the client.js file and on the css files that are required by the html, like style sheets for example.
