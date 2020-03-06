@@ -37,6 +37,8 @@ This is enough for our tool to keep an eye on the html file that has the client.
 Now any change in one of the files being watched will result in a visual change in its interface.
 Also the addition of new style sheets to your html file will also make them visible. As soon as a change is detected, it will also be noticed visually.
 
+## See [this example](https://github.com/Allex6/realtime-frontend-example)
+
 #### Dependecies
 
 For the tool to work properly, the following dependencies must be installed:
