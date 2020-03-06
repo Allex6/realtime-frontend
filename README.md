@@ -4,11 +4,15 @@
 
 ## Features
 
+**npm install realtime-frontend**
+
 RealTime Frontend allows the developer to follow changes in the interface he is developing in real time. For each change made by him in an html file, and / or a css file, the changes are reflected on his screen in about **2 - 3 seconds, without the page reloading.**
 
 It is necessary that he import the file 'client.js' inside the html page that he wants to follow in real time. 
 
 You can find this client.js file in the "node_modules/realtime-frontend/lib/client.js" path.
+
+**Keep in mind that this module should be used ONLY in development, do not use it in production.**
 
 ## Behavior
 
@@ -43,4 +47,4 @@ For the tool to work properly, the following dependencies must be installed:
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/Allex6/realtime-frontend/blob/master/LICENSE.md)
